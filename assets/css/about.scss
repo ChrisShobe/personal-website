@@ -1,0 +1,83 @@
+---
+---
+@import "main";
+
+/* Define the fade-in animation */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Apply the animation to the boxes */
+.about-box, .image-container {
+    animation: fadeIn 2s ease-in-out;
+}
+
+.about-box {
+    margin-bottom: 0;
+    color: #ffffff;
+    position: relative;
+    width: 90vw;
+    height: 10%;
+    padding: 10px;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 25px;
+    background-color: #9340e0; /* Change this to the color you want */
+
+    .centered {
+        position: absolute;
+        font-size: 15px; /* Default text size for small screens */
+
+        @media (min-width: 768px) {
+            font-size: 25px; /* Larger text size for screens that are 768px or wider */
+        }
+    }
+
+    .title {
+        font-size: 1.5em;
+        font-weight: bold;
+        color: #ffffff; /* Replace with the color you want */
+        text-align: center; /* This will center the title */
+        margin-bottom: 10px; /* Adjust as needed */
+        padding: 0;
+        
+        @media (min-width: 768px) {
+            font-size: 2.0em; /* Larger text size for screens that are 768px or wider */
+        }
+    }
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center; /* Add this line */
+    flex-wrap: wrap;
+}
+
+.image-container img {
+    height: 300px;
+    width: auto;
+    margin-right: 20px; /* Change this line */
+    margin-top: 10px; /* Adjust as needed */
+    margin-bottom: 20px; /* Adjust as needed */
+}
+
+p {
+    color: #40E0D0; /* Change this to the color you want */
+    font-size: 20px; /* Default text size for small screens */
+    
+    @media (min-width: 768px) {
+        font-size: 30px; /* Larger text size for screens that are 768px or wider */
+    }
+}
+
+.text {
+    color: #ffffff; /* Change this to the color you want */
+    font-size: 15px; /* Default text size for small screens */
+    
+    @media (min-width: 768px) {
+        font-size: 25px; /* Larger text size for screens that are 768px or wider */
+    }
+}

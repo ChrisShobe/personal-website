@@ -1,0 +1,8 @@
+- name: Home
+  link: /
+- name: Projects
+  link: /projects.html
+- name: Experience
+  link: /experience.html
+- name: Beyond CS
+  link: /about.html
