@@ -8,8 +8,20 @@
     ],
     "routes": [
       {
+        "src": "/about",
+        "dest": "/about"
+      },
+        {
+        "src": "/experience",
+        "dest": "/experience"
+      },
+    {
+        "src": "/projects",
+        "dest": "/projects"
+      },
+      {
         "src": "/(.*)",
-        "dest": "/index.html"
+        "dest": "/index"
       }
     ]
   }
