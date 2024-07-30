@@ -1,16 +1,24 @@
 ---
-- title: Parking++
-  description: During the 2023 INRIX Hackathon, my team and I came up with a webapp that would help people find cheaper parking near destinations. The webapp integrated GoogleMaps and has streetview. When users would type in the search bar and clicked a button to define the radius of parking spots they would like to view, different locations would pop up with a bar on the right that would show how far away the parking spot is from the destination, the chance that it will be available, and the cost of the spot. The search bar and radius button were not fully finished, but the rest became fully functional. We hosted the webapp using AWS. I specifically worked on the frontend using Figma to create the design and then coded the search bar to be a textbox and made a submit button on the bar in vue.js.  
-  devpost: https://devpost.com/software/parking-dkrpb5
-  codeUrl: https://github.com/sipneat/inrix-hack-2023
-
-- title: JetStream
-  description: During the first INRIX hackathon in Seattle, my team and I designed a project that would provide a seemless end to end experience to plan a business trip. I specifically worked with Flask to call the INRIX routing and parking APIs and here.com public transit API. I also helped with various components on the front-end. With our project, we were able to get to the finalist round.
-  devpost: https://devpost.com/software/jetstream-7pas4o
-  codeUrl: https://github.com/jordanmosakowski/inrix-hack-23
+- title: Countdown to Chaos
+  description: An escape room for a gamejam theme of "Time is Running Out".
+  image: /assets/images/countdown to chaos.jpg
+  devpost: https://devpost.com/software/countdown-to-chaos
 
 - title: TreeID
-  description: During the 11th Annual Hack for Humanity at SCU, my team and I designed an app that would help children identify trees in Yosemite park. We used Figma to design the app and Flutter to implement the design and add functionality. Users would navigate through the app answering a series of questions which would eventually lead to a certain type of tree depending on the characteristics chosen.
+  description: An app that helps users identify trees in Yosemite National Park.
+  image: /assets/images/treeid.jpg
   devpost: https://devpost.com/software/treeid
-  codeUrl: https://github.com/ChrisShobe/HackforHumanity2024/tree/
+  github: https://github.com/ChrisShobe/HackforHumanity2024
+
+- title: JetStream
+  description: An app to help users plan out their entire business trip from how to get there, to booking flights and hotels!
+  image: /assets/images/jetstream.jpg
+  devpost: https://devpost.com/software/jetstream-7pas4o
+  github: https://github.com/jordanmosakowski/inrix-hack-23
+
+- title: Parking++
+  description: My first hackathon! A webapp to find parking spots in real-time using Inrix's API.
+  image: /assets/images/parking++.jpg 
+  devpost: https://devpost.com/software/parking-dkrpb5
+  github: https://github.com/sipneat/inrix-hack-2023
 ---

@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+  <nav>
+    <a href="/" >Home</a>
+    <a href="/projects" >Projects</a>
+    <a href="/experience" >Experience</a>
+    <a href="/about" >Beyond CS</a>
+  </nav>
+
+  <!-- Back Button -->
+<a href="/experience" class="back-button">Back to All Experience</a>
+
+
+  <div class="experience">
+    <h1>{{ page.title }}</h1>
+    <p>{{ page.description }}</p>
+    {% if page.image %}
+      <div class="image-container">
+        <img src="{{ page.image }}" alt="{{ page.title }} Image">
+      </div>
+    {% endif %}
+  </div>
+</body>
+</html>

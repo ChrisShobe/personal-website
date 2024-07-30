@@ -8,6 +8,10 @@
     to { opacity: 1; }
 }
 
+body {
+    font-family: 'Tahoma', serif;
+}
+
 /* Apply the animation to the boxes */
 .about-box, .image-container {
     animation: fadeIn 2s ease-in-out;
@@ -23,7 +27,6 @@
     text-align: center;
     background-color: transparent;
     border-radius: 25px;
-    background-color: #9340e0; /* Change this to the color you want */
 
     .centered {
         position: absolute;
@@ -60,24 +63,99 @@
     height: 300px;
     width: auto;
     margin-right: 20px; /* Change this line */
-    margin-top: 10px; /* Adjust as needed */
+    margin-top: 20px; /* Adjust as needed */
     margin-bottom: 20px; /* Adjust as needed */
 }
 
 p {
-    color: #40E0D0; /* Change this to the color you want */
-    font-size: 20px; /* Default text size for small screens */
-    
-    @media (min-width: 768px) {
-        font-size: 30px; /* Larger text size for screens that are 768px or wider */
-    }
+    color: #ffffff; /* Change this to the color you want */
+    font-size: clamp(20px, 2vw, 25px); /* Adjusts between 16px and 20px based on viewport width */
 }
 
 .text {
     color: #ffffff; /* Change this to the color you want */
-    font-size: 15px; /* Default text size for small screens */
-    
-    @media (min-width: 768px) {
-        font-size: 25px; /* Larger text size for screens that are 768px or wider */
+    font-size: clamp(20px, 1.5vw, 25px); /* Adjusts between 12px and 15px based on viewport width */
+}
+
+h2 {
+    color: #40E0D0; /* Change this to the color you want */
+    font-size: clamp(20px, 3vw, 35px); /* Adjusts between 20px and 35px based on viewport width */
+}
+
+h3 {
+    color: #c0fff9; /* Change this to the color you want */
+    font-size: clamp(16px, 2.5vw, 30px); /* Adjusts between 16px and 30px based on viewport width */
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* Adjust the minmax value as needed */
+    gap: 20px; /* Adjust the gap between items as needed */
+}
+
+@media (min-width: 500px) {
+    .projects-container {
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* Adjust the minmax value as needed */
     }
 }
+
+.project-link {
+    color: #c0fff9; /* Change this to the color you want for project links */
+}
+
+/* Define the fade-in animation */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Apply the animation to the boxes */
+  .experience-item, .project {
+    animation: fadeIn 2s ease-in-out;
+  }
+
+  .experience-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* Adjust the minmax value as needed */
+    gap: 20px; /* Adjust the gap between items as needed */
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+  }
+  
+  nav a {
+    flex: 1;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    color: white; /* Change this to the text color you want */
+    margin: 0 5px;
+    transition: background-color 0.3s;
+  }
+  
+  nav a:hover {
+    background-color: #b340e0; /* Change this to the hover background color you want */
+  }
+
+  .social-icons {
+    float: right;
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    color: #ffffff;
+    margin: 0 10px;
+    font-size: 24px;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #b340e0; /* Change this to the hover color you prefer */
+  }

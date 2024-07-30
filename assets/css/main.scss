@@ -1,14 +1,52 @@
 .current {
-    color: green;
+    color: #40E0D0;
   }
+
 body {
-  background-image: linear-gradient(to bottom, #000000, #40E0D0);
-  height: 100%;
+  background-image: linear-gradient(to bottom, #000000, #2c9a8f);
+  min-height: 100vh;
+  font-family: 'Tahoma', serif;
 }
 h1 {
   color: #40E0D0; /* Change this to the color you want */
 }
 
 a {
-color: #40E0D0; /* Change this to the color you want */
+color: #FFFFFF; /* Change this to the color you want */
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+
+nav a {
+  flex: 1;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  color: white; /* Change this to the text color you want */
+  margin: 0 5px;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #b340e0; /* Change this to the hover background color you want */
+}
+
+.social-icons {
+  float: right;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  color: #ffffff;
+  margin: 0 10px;
+  font-size: 24px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #b340e0; /* Change this to the hover color you prefer */
 }

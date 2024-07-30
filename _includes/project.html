@@ -1,6 +1,9 @@
 <div class="project">
   <h2>{{ include.project.title }}</h2>
   <p>{{ include.project.description }}</p>
-  <a href="{{ include.project.devpost }}">Devpost</a>
-  <a href="{{ include.project.github }}">Github</a>
+  {% if include.project.github %}
+  <a href="{{ project.devpost }}" target="_blank">Devpost</a>  {% endif %} 
+  {% if include.project.github %}
+    <a href="{{ include.project.github }}" target="_blank">Github</a>
+  {% endif %}
 </div>

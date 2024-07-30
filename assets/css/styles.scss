@@ -6,6 +6,10 @@
     to { opacity: 1; }
 }
 
+body {
+    font-family: 'Tahoma', serif;
+}
+
 .link-box, .circle-image, .header-content{
     animation: fadeIn 2s ease-in-out;
 }
@@ -15,8 +19,8 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    width: 50vw;
-    height: 25vw;
+    width: 93vw;
+    height: 25rem;
     padding: 10px;
     text-align: relative;
     color: #ffffff;
@@ -62,10 +66,81 @@
 }
 
 p {
-    color: #40E0D0; /* Change this to the color you want */
-    font-size: 15px; /* Default text size for small screens */
-    
+    color: #ffffff; /* Change this to the color you want */
+    font-size: clamp(13px, 2vw, 15px); /* Default adjustment for small screens */
+
     @media (min-width: 768px) {
-        font-size: 30px; /* Larger text size for screens that are 768px or wider */
+        font-size: clamp(15px, 2vw, 18px); /* Medium adjustment for tablets or half a laptop screen */
+    }
+
+    @media (min-width: 1200px) {
+        font-size: clamp(16px, 2vw, 25px); /* Large adjustment for full screen */
     }
 }
+  
+  .text {
+    color: #ffffff; /* Change this to the color you want */
+    font-size: clamp(16px, 1.5vw, 15px); /* Adjusts between 12px and 15px based on viewport width */
+  }
+  
+  h2 {
+    color: #40E0D0; /* Change this to the color you want */
+    font-size: clamp(20px, 3vw, 35px); /* Adjusts between 20px and 35px based on viewport width */
+  }
+  
+  h3 {
+    color: #c0fff9; /* Change this to the color you want */
+    font-size: clamp(16px, 2.5vw, 30px); /* Adjusts between 16px and 30px based on viewport width */
+  }
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center; /* Add this line */
+    flex-wrap: wrap;
+}
+
+.image-container img {
+    height: 500px;
+    width: auto;
+    margin-right: 20px; /* Change this line */
+    margin-top: 20px; /* Adjust as needed */
+    margin-bottom: 20px; /* Adjust as needed */
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+  }
+  
+  nav a {
+    flex: 1;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    color: white; /* Change this to the text color you want */
+    margin: 0 5px;
+    transition: background-color 0.3s;
+  }
+  
+  nav a:hover {
+    background-color: #b340e0; /* Change this to the hover background color you want */
+  }
+
+  .social-icons {
+    float: right;
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    color: #ffffff;
+    margin: 0 10px;
+    font-size: 24px;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #b340e0; /* Change this to the hover color you prefer */
+  }
