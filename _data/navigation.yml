@@ -1,8 +1,8 @@
 - name: Home
   link: /
 - name: Projects
-  link: /projects.html
+  link: /projects
 - name: Experience
-  link: /experience.html
+  link: /experience
 - name: Beyond CS
-  link: /about.html
+  link: /about
