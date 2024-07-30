@@ -1,9 +1,2 @@
-# Site settings
-title: Your Site Title
-description: A brief description of your site
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-
-# Permalink settings
-permalink: /:categories/:title/
-# Other configurations can go here
+baseurl: "" # Change this if your site is in a subdirectory, e.g., "/blog"
+url: "http://cs-shobe.com" # Ensure this is the correct URL
