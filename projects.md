@@ -1,12 +1,8 @@
 ---
 layout: about
 title: My Projects
+permalink: /projects/
 ---
-<div class="social-icons">
-  <a href="https://www.linkedin.com/in/chris-shobe/" target="_blank"><i class="fab fa-linkedin"></i></a>
-  <a href="https://github.com/ChrisShobe" target="_blank"><i class="fab fa-github"></i></a>
-  <a href="mailto:chrisshobe2000@gmail.com"><i class="fas fa-envelope"></i></a>
-</div>
 
 # Projects Page
 

@@ -1,13 +1,18 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
-    <link rel="icon" href="/favicon.ico" src="/assets/images/opal_image.jpg" alt="Opal">
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
+    <link rel="icon" href="/assets/images/opal_icon.jpg" type="image/jpg">
     <link rel="stylesheet" href="/assets/css/styles.css">
   </head>
   <body>
-    {% include navigation.html %}
+    <nav>
+      <a href="/">Home</a>
+      <a href="/projects">Projects</a>
+      <a href="/experience">Experience</a>
+      <a href="/about">Beyond CS</a>
+    </nav>
     {{ content }}
   </body>
 </html>

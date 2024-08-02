@@ -1,6 +1,8 @@
 ---
 layout: about
 title: My Experience
+permalink: /experience/
+
 ---
 
 # Experience page
