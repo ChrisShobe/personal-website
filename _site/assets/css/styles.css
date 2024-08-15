@@ -1,0 +1,206 @@
+.current {
+  color: #40E0D0;
+}
+
+body {
+  background-image: linear-gradient(to bottom, #000000, #2c9a8f);
+  min-height: 100vh;
+  font-family: "Tahoma", serif;
+}
+
+h1 {
+  color: #40E0D0; /* Change this to the color you want */
+}
+
+a {
+  color: #FFFFFF; /* Change this to the color you want */
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+
+nav a {
+  flex: 1;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  color: white; /* Change this to the text color you want */
+  margin: 0 5px;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #b340e0; /* Change this to the hover background color you want */
+}
+
+.social-icons {
+  float: right;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  color: #ffffff;
+  margin: 0 10px;
+  font-size: 24px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #b340e0; /* Change this to the hover color you prefer */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+body {
+  font-family: "Tahoma", serif;
+}
+
+.link-box, .circle-image, .header-content {
+  animation: fadeIn 2s ease-in-out;
+}
+
+.link-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 93vw;
+  height: 25rem;
+  padding: 10px;
+  text-align: relative;
+  color: #ffffff;
+  background-color: transparent;
+}
+.link-box .your-class {
+  border-radius: 25px;
+}
+.link-box .your-class:hover {
+  background-color: #9340e0; /* Change this to the color you want */
+}
+.link-box .centered {
+  position: absolute;
+  font-size: 25px; /* Default text size for small screens */
+}
+@media (min-width: 768px) {
+  .link-box .centered {
+    font-size: 45px; /* Larger text size for screens that are 768px or wider */
+  }
+}
+
+.link-box img {
+  width: 100%; /* Updated: Set width to 100% */
+  height: 100%;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.circle-image {
+  margin-top: 10px; /* Adjust as needed */
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.header-content h1 {
+  flex-shrink: 0;
+}
+
+p {
+  color: #ffffff; /* Change this to the color you want */
+  font-size: clamp(13px, 2vw, 15px); /* Default adjustment for small screens */
+}
+@media (min-width: 768px) {
+  p {
+    font-size: clamp(15px, 2vw, 18px); /* Medium adjustment for tablets or half a laptop screen */
+  }
+}
+@media (min-width: 1200px) {
+  p {
+    font-size: clamp(16px, 2vw, 25px); /* Large adjustment for full screen */
+  }
+}
+
+.text {
+  color: #ffffff; /* Change this to the color you want */
+  font-size: clamp(16px, 1.5vw, 15px); /* Adjusts between 12px and 15px based on viewport width */
+}
+
+h2 {
+  color: #40E0D0; /* Change this to the color you want */
+  font-size: clamp(20px, 3vw, 35px); /* Adjusts between 20px and 35px based on viewport width */
+}
+
+h3 {
+  color: #c0fff9; /* Change this to the color you want */
+  font-size: clamp(16px, 2.5vw, 30px); /* Adjusts between 16px and 30px based on viewport width */
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center; /* Add this line */
+  flex-wrap: wrap;
+}
+
+.image-container img {
+  height: 500px;
+  width: auto;
+  margin-right: 20px; /* Change this line */
+  margin-top: 20px; /* Adjust as needed */
+  margin-bottom: 20px; /* Adjust as needed */
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+
+nav a {
+  flex: 1;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  color: white; /* Change this to the text color you want */
+  margin: 0 5px;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #b340e0; /* Change this to the hover background color you want */
+}
+
+.social-icons {
+  float: right;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  color: #ffffff;
+  margin: 0 10px;
+  font-size: 24px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #b340e0; /* Change this to the hover color you prefer */
+}
+
+/*# sourceMappingURL=styles.css.map */

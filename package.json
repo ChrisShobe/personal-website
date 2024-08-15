@@ -1,42 +1,15 @@
 {
-    "version": 2,
-    "builds": [
-      {
-        "src": "index.html",
-        "use": "@vercel/static"
-      },
-      {
-        "src": "about.html",
-        "use": "@vercel/static"
-      },
-      {
-        "src": "projects.md",
-        "use": "@vercel/static"
-      },
-      {
-        "src": "solutions-delivery-intern.md",
-        "use": "@vercel/static"
-      },
-      {
-        "src": "graphic-designer.md",
-        "use": "@vercel/static"
-      },
-      {
-        "src": "event-coordinator.md",
-        "use": "@vercel/static"
-      },
-      {
-        "src": "diversity-equity-inclusion-chair.md",
-        "use": "@vercel/static"
-      }
-    ],
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "/$1"
-      }
-    ],
-    "engines" : {
+    "name": "Personal Website",
+    "version": "1.0.0",
+    "description": "My first website",
+    "main": "index.js",
+    "scripts": {
+      "build": "sass assets/_sass:assets/css"
+    },
+    "engines": {
       "node": "18.x"
+    },
+    "dependencies": {
+      "sass": "^1.77.8"
     }
   }
