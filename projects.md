@@ -11,8 +11,9 @@ permalink: /projects/
 <div class="projects-container">
 {% for project in site.data.projects %}
   <div class="project">
-    <h2><a class="project-link" href="{{ project.title | slugify | prepend: '/' | append: '.html' }}">{{ project.title }}</a></h2>
-    <a class="project-link" href="{{ project.image | prepend: site.baseurl }}"><img src="{{ project.image }}" alt="{{ project.title }} image"></a>
+    <h2><a class="project-link" href="{{ project.title | slugify | append: '.html' }}">{{ project.title }}</a>
+</h2>
+    <a class="project-link" href="{{ project.image }}"><img src="{{ project.image }}" alt="{{ project.title }} image"></a>
     <p>{{ project.description }}</p>
   </div>
 {% endfor %}
