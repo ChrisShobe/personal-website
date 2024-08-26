@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
 .current {
   color: #40E0D0;
 }
@@ -5,7 +7,7 @@
 body {
   background-image: linear-gradient(to bottom, #000000, #2c9a8f);
   min-height: 100vh;
-  font-family: "Tahoma", serif;
+  font-family: "EB Garamond", serif;
 }
 
 h1 {
@@ -61,7 +63,7 @@ nav a:hover {
   }
 }
 body {
-  font-family: "Tahoma", serif;
+  font-family: "EB Garamond", serif;
 }
 
 .link-box, .circle-image, .header-content {

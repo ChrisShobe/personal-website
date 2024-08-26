@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
 .current {
   color: #40E0D0;
 }
@@ -5,11 +7,7 @@
 body {
   background-image: linear-gradient(to bottom, #000000, #2c9a8f);
   min-height: 100vh;
-  font-family: "Tahoma", serif;
-}
-
-h1 {
-  color: #40E0D0; /* Change this to the color you want */
+  font-family: "EB Garamond", serif;
 }
 
 a {
@@ -62,7 +60,7 @@ nav a:hover {
   }
 }
 body {
-  font-family: "Tahoma", serif;
+  font-family: "EB Garamond", serif;
 }
 
 /* Apply the animation to the boxes */
@@ -76,7 +74,6 @@ body {
   position: relative;
   width: 90vw;
   height: 10%;
-  padding: 10px;
   text-align: center;
   background-color: transparent;
   border-radius: 25px;
@@ -90,18 +87,27 @@ body {
     font-size: 25px; /* Larger text size for screens that are 768px or wider */
   }
 }
+h1 {
+  color: #40E0D0; /* Change this to the color you want */
+  font-size: clamp(20px, 3vw, 35px); /* Adjusts between 20px and 35px based on viewport width */
+  margin-bottom: 20px; /* Increase the bottom margin */
+  margin-top: 40px; /* Increase the top margin */
+  text-align: left; /* Center align the h1 element */
+}
+
 .about-box .title {
   font-size: 1.5em;
   font-weight: bold;
   color: #df8fff; /* Replace with the color you want */
-  text-align: center; /* This will center the title */
+  text-align: left; /* Center align the title */
   margin-bottom: 10px; /* Adjust as needed */
   padding: 0;
 }
-@media (min-width: 768px) {
-  .about-box .title {
-    font-size: 2em; /* Larger text size for screens that are 768px or wider */
-  }
+
+.about-box .text {
+  color: #ffffff; /* Change this to the color you want */
+  font-size: clamp(20px, 1.5vw, 25px); /* Adjusts between 12px and 15px based on viewport width */
+  text-align: left; /* Center align the text */
 }
 
 .image-container {
@@ -134,6 +140,7 @@ p {
 .text {
   color: #ffffff; /* Change this to the color you want */
   font-size: clamp(20px, 1.5vw, 25px); /* Adjusts between 12px and 15px based on viewport width */
+  text-align: left;
 }
 
 h2 {
