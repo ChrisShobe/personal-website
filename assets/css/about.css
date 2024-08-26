@@ -128,8 +128,7 @@ p {
 .project-content p {
   width: 100%;
   max-width: 400px; /* Adjust as needed */
-  font-size: clamp(20px, 2vw, 25px); /* Adjusts between 16px and 20px based on viewport width */
-
+  font-size: clamp(25px, 2vw, 35px); /* Adjusts between 16px and 20px based on viewport width */
 }
 
 .text {

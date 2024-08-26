@@ -123,16 +123,16 @@ body {
 
 p {
   color: #ffffff; /* Change this to the color you want */
-  font-size: clamp(13px, 2vw, 15px); /* Default adjustment for small screens */
+  font-size: clamp(25px, 2vw, 35px); /* Default adjustment for small screens */
 }
 @media (min-width: 768px) {
   p {
-    font-size: clamp(15px, 2vw, 18px); /* Medium adjustment for tablets or half a laptop screen */
+    font-size: clamp(25px, 2vw, 35px); /* Medium adjustment for tablets or half a laptop screen */
   }
 }
 @media (min-width: 1200px) {
   p {
-    font-size: clamp(16px, 2vw, 25px); /* Large adjustment for full screen */
+    font-size: clamp(25px, 2vw, 35px); /* Large adjustment for full screen */
   }
 }
 
