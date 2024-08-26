@@ -68,7 +68,7 @@ body {
 
 p {
     color: #ffffff; /* Change this to the color you want */
-    font-size: clamp(13px, 2vw, 15px); /* Default adjustment for small screens */
+    font-size: clamp(10px, 2vw, 15px); /* Default adjustment for small screens */
 
     @media (min-width: 768px) {
         font-size: clamp(15px, 2vw, 18px); /* Medium adjustment for tablets or half a laptop screen */
