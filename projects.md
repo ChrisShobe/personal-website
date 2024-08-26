@@ -4,7 +4,7 @@ title: My Projects
 permalink: /projects/
 ---
 
-# Projects Page
+# Projects
 
 <p>All of my projects! (Besides this website of course.)</p>
 

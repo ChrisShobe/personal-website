@@ -4,7 +4,7 @@ title: My Experience
 permalink: /experience/
 ---
 
-# Experience page
+# Experience
 
 <p>My internships, leadership experience, and more!</p>
 
