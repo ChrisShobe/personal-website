@@ -125,6 +125,11 @@ p {
   font-size: clamp(20px, 2vw, 25px); /* Adjusts between 16px and 20px based on viewport width */
 }
 
+.project-content p {
+  width: 100%;
+  max-width: 400px; /* Adjust as needed */
+}
+
 .text {
   color: #ffffff; /* Change this to the color you want */
   font-size: clamp(20px, 1.5vw, 25px); /* Adjusts between 12px and 15px based on viewport width */
