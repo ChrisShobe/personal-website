@@ -1,7 +1,7 @@
 
 ---
 - title: Countdown to Chaos
-  description: An escape room for a gamejam theme of "Time is Running Out".
+  description: An escape room created for a game jam with the theme "Time is Running Out."
   image: /assets/images/countdown to chaos.jpg
   devpost: https://devpost.com/software/countdown-to-chaos
 
@@ -12,13 +12,13 @@
   github: https://github.com/ChrisShobe/HackforHumanity2024
 
 - title: JetStream
-  description: An app to help users plan out their entire business trip from how to get there, to booking flights and hotels!
+  description: An app designed to help users plan their entire business trip, from how to get there to booking flights and hotels!
   image: /assets/images/jetstream.jpg
   devpost: https://devpost.com/software/jetstream-7pas4o
   github: https://github.com/jordanmosakowski/inrix-hack-23
 
 - title: Parking++
-  description: My first hackathon! A webapp to find parking spots in real-time using Inrix's API.
+  description: My first hackathon! A web app to find parking spots in real-time using Inrix's API.
   image: /assets/images/parking++.jpg 
   devpost: https://devpost.com/software/parking-dkrpb5
   github: https://github.com/sipneat/inrix-hack-2023
