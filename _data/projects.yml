@@ -1,24 +1,34 @@
 
 ---
+- title: Hearo
+  description: Best Womxn in Hack Award Winner. An alarm system for the hard of hearing.
+  image: /assets/images/HearoLogo.png
+  devpost: https://devpost.com/software/hearo-kcb80g
+
+- title: Literally Cooking
+  description: A streamlined recipe app.
+  image: /assets/images/cooking.png
+  devpost: https://devpost.com/software/recipe-app-6cx8b0
+
 - title: Countdown to Chaos
-  description: An escape room created for a game jam with the theme "Time is Running Out."
+  description: A video game escape room.
   image: /assets/images/countdown to chaos.jpg
   devpost: https://devpost.com/software/countdown-to-chaos
 
 - title: TreeID
-  description: An app that helps users identify trees in Yosemite National Park.
+  description: Identify trees in Yosemite National Park.
   image: /assets/images/treeid.jpg
   devpost: https://devpost.com/software/treeid
   github: https://github.com/ChrisShobe/HackforHumanity2024
 
 - title: JetStream
-  description: An app designed to help users plan their entire business trip, from how to get there to booking flights and hotels!
+  description: Finalist. Plan your next business trip, book flights and hotels!
   image: /assets/images/jetstream.jpg
   devpost: https://devpost.com/software/jetstream-7pas4o
   github: https://github.com/jordanmosakowski/inrix-hack-23
 
 - title: Parking++
-  description: My first hackathon! A web app to find parking spots in real-time using Inrix's API.
+  description: 10th Place. A web app to find parking spots in real-time using Inrix's API.
   image: /assets/images/parking++.jpg 
   devpost: https://devpost.com/software/parking-dkrpb5
   github: https://github.com/sipneat/inrix-hack-2023

@@ -6,5 +6,6 @@ image: /assets/images/parking++.jpg
 devpost: https://devpost.com/software/parking-dkrpb5
 github: https://github.com/sipneat/inrix-hack-2023
 date: November 2023
+permalink: /projects/parking
 ---
 

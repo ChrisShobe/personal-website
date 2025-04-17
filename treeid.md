@@ -6,5 +6,6 @@ image: /assets/images/treeid.jpg
 devpost: https://devpost.com/software/treeid
 github: https://github.com/ChrisShobe/HackforHumanity2024
 date: February 2024
+permalink: /projects/treeid
 ---
 

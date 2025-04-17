@@ -5,5 +5,6 @@ description: During the first-ever SCU Roblox Game Jam, my team and I created an
 image: /assets/images/countdown to chaos.jpg
 devpost: https://devpost.com/software/countdown-to-chaos
 date: April 2024
+permalink: /projects/countdown-to-chaos
 ---
 

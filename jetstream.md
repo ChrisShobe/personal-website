@@ -6,5 +6,6 @@ image: /assets/images/jetstream.jpg
 devpost: https://devpost.com/software/jetstream-7pas4o
 github: https://github.com/jordanmosakowski/inrix-hack-23
 date: December 2023
+permalink: /projects/jetstream
 ---
 
