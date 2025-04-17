@@ -1,5 +1,6 @@
 baseurl: "" # Change this if your site is in a subdirectory, e.g., "/blog"
 url: "http://cs-shobe.com" # Ensure this is the correct URL
+permalink: /:categories/:title/ # Permalink structure
 sass:
   sass_dir: assets/_sass
   style: compressed
